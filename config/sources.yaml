@@ -1,0 +1,19 @@
+google_news_queries:
+  United States: ["financial regulation", "SEC rule", "bank supervision", "market conduct", "ESG disclosure"]
+  United Kingdom: ["FCA regulation", "PRA rule", "BoE policy", "market abuse", "listing rules"]
+  European Union: ["ESMA guideline", "EBA supervision", "ECB policy", "MiCA", "MiFID"]
+  Norway: ["Finanstilsynet regulation", "Norwegian FSA", "Oslo Børs rules", "bank regulation Norway"]
+  Japan: ["JFSA regulation", "Bank of Japan policy", "securities regulation Japan"]
+
+direct_rss:
+  United States:
+    - "https://www.sec.gov/news/pressreleases.rss"
+    - "https://www.federalreserve.gov/feeds/press_all.xml"
+  United Kingdom:
+    - "https://www.fca.org.uk/news/rss.xml"
+  European Union:
+    - "https://www.ecb.europa.eu/press/pressconf/pressconf.rss"   
+  Norway:
+    - "https://www.finanstilsynet.no/rss/nyheter/"                
+  Japan:
+    - "https://www.fsa.go.jp/en/news/index.xml"                    
