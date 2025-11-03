@@ -1,19 +1,65 @@
 google_news_queries:
-  United States: ["financial regulation", "SEC rule", "bank supervision", "market conduct", "ESG disclosure"]
-  United Kingdom: ["FCA regulation", "PRA rule", "BoE policy", "market abuse", "listing rules"]
-  European Union: ["ESMA guideline", "EBA supervision", "ECB policy", "MiCA", "MiFID"]
-  Norway: ["Finanstilsynet regulation", "Norwegian FSA", "Oslo Børs rules", "bank regulation Norway"]
-  Japan: ["JFSA regulation", "Bank of Japan policy", "securities regulation Japan"]
+  United States: 
+    - "financial regulation"
+    - "SEC rule"
+    - "bank supervision"
+    - "market conduct"
+    - "ESG"
+    - "sustainability"
+    - "green finance"
+    - "climate disclosure"
+  United Kingdom: 
+    - "FCA regulation"
+    - "PRA rule"
+    - "BoE policy"
+    - "market abuse"
+    - "listing rules"
+    - "ESG"
+    - "sustainability"
+    - "green finance"
+  European Union: 
+    - "ESMA guideline"
+    - "EBA rule"
+    - "ECB policy"
+    - "MiCA"
+    - "ESG"
+    - "sustainability"
+    - "taxonomy"
+    - "CSRD"
+    - "SFDR"
+  Norway: 
+    - "Finanstilsynet regulation"
+    - "financial supervision"
+    - "bank compliance"
+    - "ESG"
+    - "sustainability"
+    - "green finance"
+  Japan: 
+    - "JFSA regulation"
+    - "financial supervision"
+    - "crypto regulation"
+    - "ESG"
+    - "sustainability"
+    - "green finance"
 
 direct_rss:
   United States:
     - "https://www.sec.gov/news/pressreleases.rss"
     - "https://www.federalreserve.gov/feeds/press_all.xml"
+    - "https://www.cftc.gov/rss/rss.xml"                       
+    - "https://www.treasury.gov/rss/news.xml"                  
   United Kingdom:
     - "https://www.fca.org.uk/news/rss.xml"
+    - "https://www.bankofengland.co.uk/news/news.xml"          
+    - "https://www.frc.org.uk/rss-feed/news"                   
   European Union:
-    - "https://www.ecb.europa.eu/press/pressconf/pressconf.rss"   
+    - "https://www.esma.europa.eu/rss-feed"                    
+    - "https://www.eba.europa.eu/rss.xml"                     
+    - "https://www.ecb.europa.eu/press/pressconf/pressconf.rss"
+    - "https://environment.ec.europa.eu/news_en.xml"          
   Norway:
-    - "https://www.finanstilsynet.no/rss/nyheter/"                
+    - "https://www.finanstilsynet.no/rss/nyheter/"            
+    - "https://www.regjeringen.no/en/whatsnew/rss/id2006120/"  
   Japan:
-    - "https://www.fsa.go.jp/en/news/index.xml"                    
+    - "https://www.fsa.go.jp/en/news/index.xml"                
+    - "https://www.env.go.jp/en/headline.rdf"                               
