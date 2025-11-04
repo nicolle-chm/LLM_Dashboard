@@ -9,7 +9,10 @@ It uses RSS feeds and LLM-based text classification to identify, summarise, and 
 - Uses OpenAI's GPT-4 model to:
   - Identify if an article is regulatory.
   - Extract jurisdiction, authority, topic, and implications.
-- Displays results in a clean card-based layout.
+- Displays results in a clean card based layout.
+- Displays insights and visual summaries, including a bar charts of article distribution by jurisdiction and summary statistics.
+- Allows users to generate overall market insights using an LLM summariser.
+- Adds a keyword search filter to find articles by topic or term (e.g., ESG, crypto).
 - Includes a date range filter for temporal selection.
 - Allows CSV export of the analysed articles.
 
