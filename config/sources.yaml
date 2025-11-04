@@ -41,25 +41,27 @@ google_news_queries:
     - "ESG"
     - "sustainability"
     - "green finance"
+    - "site:fsa.go.jp"
+    - "site:env.go.jp"
+    - "金融庁 規制"             
+    - "金融監督"  
 
 direct_rss:
   United States:
     - "https://www.sec.gov/news/pressreleases.rss"
     - "https://www.federalreserve.gov/feeds/press_all.xml"
-    - "https://www.cftc.gov/rss/rss.xml"                       
-    - "https://www.treasury.gov/rss/news.xml"                  
   United Kingdom:
     - "https://www.fca.org.uk/news/rss.xml"
-    - "https://www.bankofengland.co.uk/news/news.xml"          
-    - "https://www.frc.org.uk/rss-feed/news"                   
+    - "https://www.bankofengland.co.uk/rss/news"         
   European Union:
-    - "https://www.esma.europa.eu/rss-feed"                    
-    - "https://www.eba.europa.eu/rss.xml"                     
-    - "https://www.ecb.europa.eu/press/pressconf/pressconf.rss"
-    - "https://environment.ec.europa.eu/news_en.xml"          
+    - "https://www.eba.europa.eu/rss.xml"            
+    - "https://www.ecb.europa.eu/rss/press.html"        
+    - "https://www.ecb.europa.eu/rss/blog.html"         
+    - "https://www.ecb.europa.eu/rss/statpress.html"      
   Norway:
     - "https://www.finanstilsynet.no/rss/nyheter/"            
     - "https://www.regjeringen.no/en/whatsnew/rss/id2006120/"  
-  Japan:
-    - "https://www.fsa.go.jp/en/news/index.xml"                
-    - "https://www.env.go.jp/en/headline.rdf"                               
+  Japan: 
+    - "https://www.fsa.go.jp/fsaEnNewsList_rss2.xml"
+
+                        
